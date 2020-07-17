@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ListFavorites from './ListFavorites';
 import './App.css';
 import logo from './logo.svg';
 
@@ -106,6 +107,7 @@ class App extends Component {
           <h1 className="App-title">ReactND - Coding Practice</h1>
         </header>
         <h2>Favorite Movies</h2>
+        <ListFavorites users={users} profiles={profiles} movies={movies} />
       </div>
     );
   }
